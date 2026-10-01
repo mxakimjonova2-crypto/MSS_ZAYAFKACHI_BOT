@@ -66,7 +66,7 @@ async def get_phone(message: types.Message, state: FSMContext):
     await message.answer("Rahmat! Zayafkangiz qabul qilindi.")
     
     # O'z ID raqamingizni yozing
-    await bot.send_message(chat_id="8756103290", text=text)
+    await bot.send_message(chat_id=8756103290, text=text)
     await state.clear()
 
 async def main():
