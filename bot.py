@@ -72,5 +72,5 @@ async def get_phone(message: types.Message, state: FSMContext):
 async def main():
     await dp.start_polling(bot)
 
-if name == "_main_":
-    asyncio.run(main())
+if _name_ == "_main_":
+asyncio.run(main())
