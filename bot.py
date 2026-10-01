@@ -7,7 +7,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
 # Yangi tokenni shu yerga qo'ying
-API_TOKEN = '8656378230:AAFtOSKmhaWlHwhHhRzvkxK8bPuVEKRh9Hg'
+API_TOKEN = '8656378230:AAHfe9k3VxLlHgDIoxgRzeRLMoMJIG9wQ_c'
 
 # O'zingizning raqamli Telegram ID'ingiz (qo'shtirnoqsiz)
 ADMIN_ID = 8756103290
