@@ -19,8 +19,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # ---------- Sozlamalar ----------
-API_TOKEN = os.getenv"8656378230:AAHfe9k3VxLlHgDIoxgRzeRLMoMJIG9wQ_c"
-ADMIN_ID = int(os.getenv"8756103290"
+API_TOKEN = "8656378230:AAHfe9k3VxLlHgDIoxgRzeRLMoMJIG9wQ_c"
+ADMIN_ID = "8756103290"
 
 if not API_TOKEN:
     raise ValueError("BOT_TOKEN topilmadi! .env faylini tekshiring.")
