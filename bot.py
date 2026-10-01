@@ -6,10 +6,13 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
-# O'z tokeningizni shu yerga qo'ying
-API_TOKEN = '8656378230:AAHE6LpKRkHKSayQjdarY4TEiqW8m6SWOMU'
+# Yangi tokenni shu yerga qo'ying
+API_TOKEN = '8656378230:AAFtOSKmhaWlHwhHhRzvkxK8bPuVEKRh9Hg'
 
-bot = Bot(token=API_TOKEN)
+# O'zingizning raqamli Telegram ID'ingiz (qo'shtirnoqsiz)
+ADMIN_ID = 8756103290
+
+bot = Bot(token=API_token)
 dp = Dispatcher(storage=MemoryStorage())
 
 # Narxlar ro'yxati
@@ -61,16 +64,16 @@ async def get_phone(message: types.Message, state: FSMContext):
     data = await state.get_data()
     ism = data['ism']
     telefon = message.text
-    
+
     text = f"Yangi zayafka:\nIsm: {ism}\nTelefon: {telefon}"
     await message.answer("Rahmat! Zayafkangiz qabul qilindi.")
-    
-    # O'z ID raqamingizni yozing
-    await bot.send_message(chat_id=8756103290, text=text)
+
+    await bot.send_message(chat_id=ADMIN_ID, text=text)
     await state.clear()
 
 async def main():
     await dp.start_polling(bot)
 
 if _name_ == "_main_":
-asyncio.run(main())
+    asyncio.run(main())
+    
