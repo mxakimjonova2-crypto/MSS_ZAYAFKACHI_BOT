@@ -12,7 +12,7 @@ API_TOKEN = '8656378230:AAFtOSKmhaWlHwhHhRzvkxK8bPuVEKRh9Hg'
 # O'zingizning raqamli Telegram ID'ingiz (qo'shtirnoqsiz)
 ADMIN_ID = 8756103290
 
-bot = Bot(token=API_token)
+bot = Bot(token=API_TOKEN)
 dp = Dispatcher(storage=MemoryStorage())
 
 # Narxlar ro'yxati
