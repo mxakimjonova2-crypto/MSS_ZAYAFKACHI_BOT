@@ -29,7 +29,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 bot = Bot(token=API_TOKEN)
-dp = Dispatcher(storage=MemoryStorage())
+dp = Dispatcher(storage=MemoryStorage()
 
 PLATFORMALAR = {
     "Instagram": "1000 ta obunachi: 15 000 so'm",
