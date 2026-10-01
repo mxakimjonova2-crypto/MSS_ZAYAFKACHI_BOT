@@ -16,8 +16,8 @@ from aiogram.types import (
     FSInputFile,
 )
 
-API_TOKEN = "YANGI_TOKEN"
-ADMIN_ID = 123456789
+API_TOKEN = "8656378230:AAEK7Htv-jAIOn3ItzcLJ4lGUHoT8n07_BI"
+ADMIN_ID = 8756103290
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(storage=MemoryStorage())
