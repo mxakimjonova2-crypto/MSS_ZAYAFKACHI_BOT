@@ -1,0 +1,8 @@
+﻿#,Muammo,Yechim
+1,name o'zgaruvchisi aniqlanmagan edi,__name__ ga o'zgartirildi
+2,Log formati yo'q edi,"Vaqt, daraja, modul nomi qo'shildi"
+3,Loglar faqat konsolga chiqardi,bot.log fayliga ham yoziladi
+4,yt_dlp va aiohttp keraksiz loglari,WARNING darajasiga ko'tarildi
+5,Xatoliklarda stack trace yo'q edi,exc_info=True qo'shildi
+6,Muhim harakatlar logga yozilmagan edi,"/start, musiqa, zayafka harakatlari qo'shildi"
+7,Bot to'xtaganda log yo'q edi,finally blokida yopish logi qo'shildi
