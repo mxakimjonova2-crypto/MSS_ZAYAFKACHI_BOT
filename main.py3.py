@@ -24,8 +24,8 @@ from aiogram.types import (
 
 logging.basicConfig(level=logging.INFO)
 
-API_TOKEN = os.environ["BOT_TOKEN"]  # tokenni kodga yozmang
-ADMIN_ID = int(os.getenv("ADMIN_ID", "8756103290"))
+API_TOKEN = "8656378230:AAHjgD_dJJivheBXqZxvNvmV8yuE4dinY6o"  # tokenni kodga yozmang
+ADMIN_ID = 8756103290
 DATA_DIR = os.getenv("DATA_DIR", ".")  # Railway Volume ulangan bo'lsa, masalan /data
 KARTA_FAYL = os.path.join(DATA_DIR, "karta.json")
 MIN_MIQDOR, MAX_MIQDOR = 100, 100000
