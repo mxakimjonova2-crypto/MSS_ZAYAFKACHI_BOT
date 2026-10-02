@@ -24,7 +24,7 @@ from aiogram.types import (
 
 logging.basicConfig(level=logging.INFO)
 
-API_TOKEN = " 8656378230:AAGcB8hpEQbS79np8Y3p2UtvPxpibkEPBfg" # tokenni kodga yozmang
+API_TOKEN = " 8656378230:AAEleplFidTjbHqYUT6bc2s9BTCK-8gHAqE" # tokenni kodga yozmang
 ADMIN_ID =  8756103290
 DATA_DIR = os.getenv("DATA_DIR", ".")  # Railway Volume ulangan bo'lsa, masalan /data
 KARTA_FAYL = os.path.join(DATA_DIR, "karta.json")
