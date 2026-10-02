@@ -21,7 +21,7 @@ from aiogram.types import (
 )
 
 API_TOKEN = "8656378230:AAHlMarh7RvgoNt6I2XjJfzB4QiSrnCixX8" # tokenni kodga yozmang, muhit o'zgaruvchisidan oling
-ADMIN_ID =  "8756103290"
+ADMIN_ID =  8756103290
 KARTA_FAYL = "karta.json"
 
 bot = Bot(token=API_TOKEN)
