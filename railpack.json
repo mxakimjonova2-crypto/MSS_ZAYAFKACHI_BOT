@@ -1,4 +1,4 @@
 {
   "$schema": "https://schema.railpack.com",
-  "start": "python main.py"
+  "startCommand": "python main.py"
 }
