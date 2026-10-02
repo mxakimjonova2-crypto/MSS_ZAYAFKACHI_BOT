@@ -1,10 +1,2 @@
-# Python virtual muhitlari
-venv/
-.env
-
-# Python bytecode
-pycache/
-*.py[cod]
-
-# Maxfiy ma'lumotlar
-*.env
+karta.json
+_pycache_
