@@ -1,0 +1,13 @@
+ydl_opts = {
+    "format": "bestaudio/best",
+    "outtmpl": f"{papka}/%(title)s.%(ext)s",
+    "cookiefile": "cookies.txt",
+    "noplaylist": True,
+    "quiet": True,
+    "js_runtimes": {"deno": {}},
+    "postprocessors": [{
+        "key": "FFmpegExtractAudio",
+        "preferredcodec": "mp3",
+        "preferredquality": "192",
+    }],
+}
