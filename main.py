@@ -21,9 +21,9 @@ else:
     print("YT_COOKIES_B64 topilmadi")
 
 # ---------- Sozlamalar (Railway Variables) ----------
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))
-ADMIN_USERNAME = os.getenv("ADMIN_USERNAME", "@admin")
+BOT_TOKEN = "8656378230:AAEI_XN4L4i3ALsXoVIHtAoWuXPhVbeJVVM"
+ADMIN_ID = 8756103290
+ADMIN_USERNAME = "MCHE_9804
 SITE_URL = os.getenv("SITE_URL", "https://mxakimjonova2-crypto.github.io/MSS_ZAYAFKACHI_BOT/")
 DB_PATH = os.getenv("DB_PATH", "bot.db")
 REF_BONUS = 500
