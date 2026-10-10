@@ -21,7 +21,7 @@ else:
     print("YT_COOKIES_B64 topilmadi")
 
 # ---------- Sozlamalar (Railway Variables) ----------
-BOT_TOKEN = "8656378230:AAEI_XN4L4i3ALsXoVIHtAoWuXPhVbeJVVM"
+BOT_TOKEN = "8656378230:AAF4UrTfdV-n7QUXAjVlAqlxG0gYkq63iPs"
 ADMIN_ID = 8756103290
 ADMIN_USERNAME = "MCHE_9804"
 SITE_URL = os.getenv("SITE_URL", "https://mxakimjonova2-crypto.github.io/MSS_ZAYAFKACHI_BOT/")
